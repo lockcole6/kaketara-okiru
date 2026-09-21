@@ -1,0 +1,175 @@
+{
+  "title": "賭けたら起きる。",
+  "episode": "第1話 退屈な男",
+  "encoding": {
+    "format": "WebP",
+    "grayscale": true,
+    "quality": 90,
+    "resized": false
+  },
+  "originalBytes": 36635848,
+  "totalBytes": 5040410,
+  "savedPercent": 86.2,
+  "pages": [
+    {
+      "page": 1,
+      "file": "images/page-001.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 423350,
+      "originalBytes": 2744025,
+      "sha256": "d7819436bf69f0a511210b73f8916ab184f822f2006af10aa84bb5b3c1a64203",
+      "meanAbsoluteLumaError": 1.383
+    },
+    {
+      "page": 2,
+      "file": "images/page-002.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 282528,
+      "originalBytes": 2214435,
+      "sha256": "290551d436714e01956657b922670fc955c3529aa510f44e1ad8d98aeedcbff1",
+      "meanAbsoluteLumaError": 1.229
+    },
+    {
+      "page": 3,
+      "file": "images/page-003.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 365408,
+      "originalBytes": 2435354,
+      "sha256": "e99a34332dd91c989ce8906fc4ed450647d3b2733c52bfb92cd517fd2bb2169a",
+      "meanAbsoluteLumaError": 1.255
+    },
+    {
+      "page": 4,
+      "file": "images/page-004.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 346120,
+      "originalBytes": 2285259,
+      "sha256": "7e950f9d0ce2de4890726157e4df7915112c0d4d7af4b98763031ff4a9e6b739",
+      "meanAbsoluteLumaError": 1.142
+    },
+    {
+      "page": 5,
+      "file": "images/page-005.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 291882,
+      "originalBytes": 2125852,
+      "sha256": "65666c9d979cc7a2c2a4ef0b75c15f940c9e380a957e1a33c74d2e574079721e",
+      "meanAbsoluteLumaError": 1.183
+    },
+    {
+      "page": 6,
+      "file": "images/page-006.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 250068,
+      "originalBytes": 1996328,
+      "sha256": "92e03568dca6af499984c54543915b84d7d7c32a46cbb6893055b3f862a7ef03",
+      "meanAbsoluteLumaError": 1.106
+    },
+    {
+      "page": 7,
+      "file": "images/page-007.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 311968,
+      "originalBytes": 2201150,
+      "sha256": "d19239076fa875312265970b80f750532cdc9b1efe43523ac381ac87691ae4b0",
+      "meanAbsoluteLumaError": 1.183
+    },
+    {
+      "page": 8,
+      "file": "images/page-008.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 360672,
+      "originalBytes": 2476485,
+      "sha256": "87aff2c68ca7466de6093ecf7b1e017f9c400f6832ab92a3f54f0d0aede73d17",
+      "meanAbsoluteLumaError": 1.298
+    },
+    {
+      "page": 9,
+      "file": "images/page-009.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 283818,
+      "originalBytes": 2259860,
+      "sha256": "512113c44058aa3ff9d6b02cb579dbc5a5d0664e3c4066b1e1af08c704bcdd0c",
+      "meanAbsoluteLumaError": 1.247
+    },
+    {
+      "page": 10,
+      "file": "images/page-010.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 299582,
+      "originalBytes": 2226164,
+      "sha256": "9baa6986352dcdfdb54217ff499058907c6f5e47909b8f77530bd6e076d2d121",
+      "meanAbsoluteLumaError": 1.179
+    },
+    {
+      "page": 11,
+      "file": "images/page-011.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 323406,
+      "originalBytes": 2558754,
+      "sha256": "b16c687676e461bb2e0e039d1bf87cd15eee249658b18cf45401ca41fa4dcff9",
+      "meanAbsoluteLumaError": 1.458
+    },
+    {
+      "page": 12,
+      "file": "images/page-012.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 363682,
+      "originalBytes": 2595492,
+      "sha256": "86419271b77848e5019c852da3ddf31f5de7407bfe652eb188b6284cec06e95f",
+      "meanAbsoluteLumaError": 1.375
+    },
+    {
+      "page": 13,
+      "file": "images/page-013.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 253914,
+      "originalBytes": 2077355,
+      "sha256": "1bd189e128fb215d0bc6b03e5ed74629ae3e0ab040ea15d6692b4d624e5ed25d",
+      "meanAbsoluteLumaError": 1.138
+    },
+    {
+      "page": 14,
+      "file": "images/page-014.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 344976,
+      "originalBytes": 2331577,
+      "sha256": "f76d85c9475229cbf82d72a5278df691ed3f80136ef64f5a7c2f2866a6257a2e",
+      "meanAbsoluteLumaError": 1.164
+    },
+    {
+      "page": 15,
+      "file": "images/page-015.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 299236,
+      "originalBytes": 2171006,
+      "sha256": "2f97288bcf69760a4566ae2d49e178690e10a0064b2f4c57797a93ff50254bc9",
+      "meanAbsoluteLumaError": 1.215
+    },
+    {
+      "page": 16,
+      "file": "images/page-016.webp",
+      "width": 1024,
+      "height": 1584,
+      "bytes": 239800,
+      "originalBytes": 1936752,
+      "sha256": "84b68796f00ee92a05602563005695dabb73bf730438ec3fe77fdf9b4f347250",
+      "meanAbsoluteLumaError": 1.099
+    }
+  ]
+}
