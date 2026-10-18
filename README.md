@@ -2,37 +2,47 @@
 
 第1話「退屈な男」全16ページの漫画閲覧サイト。
 
-**[漫画を読む](https://lockcole6.github.io/kaketara-okiru/)**
+**[目次](https://lockcole6.github.io/kaketara-okiru/)** · **[第1話を読む](https://lockcole6.github.io/kaketara-okiru/episodes/01/)**
 
-- コマは右から左へ読みます。
-- 「次のページ」または左矢印キーで進み、右矢印キーで戻ります。
-- ページ番号から直接移動できます。URLの `#p15` などでページを指定できます。
-- 「全ページを縦に読む」で連続表示へ切り替えられます。
-- ページ番号と末尾「1話完」を含む2026年9月22日の修正版です。
+## UI
 
-## 軽量化
+[退屈のオッズ](https://lockcole6.github.io/taikutsu-no-odds/) と同じ配色、800px幅、目次・エピソード行、縦読み、上部の固定ページ選択メニューを採用。画像はスクロールに合わせて遅延読み込みします。本文はJavaScript無効でも読めます。
 
-番号付きPNGを、グレーの階調を保った白黒WebP（品質90）に変換しています。画像は元の1024×1584pxを維持。1ページ表示では現在のページと次の1枚を読み込み、縦読みでは表示位置に合わせて読み込みます。圧縮率・各ファイルの容量は `pages.json` に記録しています。
+- ページは上から下へ、コマは右から左へ読みます。
+- ページ選択メニュー、または左右の矢印キーで移動できます。
+- `episodes/01/#p15` で途中のページを直接開けます。
+- 従来の `/#p15` も同じページへ転送します。
+- ページ番号と末尾「1話完」を含む修正版を使用しています。
 
-原寸PNG・PDF・制作設定・過去版はローカルの制作プロジェクトで保管。このリポジトリには公開用画像、閲覧コード、再変換スクリプトを収録しています。
+## 軽量化の比較
 
-## 画像を更新する
+全16ページ・1024×1584pxの同じ原稿で比較しました。
 
-PythonとPillowを用意し、番号付き原稿フォルダを指定します。
+|形式|合計容量|
+|---|---:|
+|元のRGB PNG|36.6MB|
+|階調を保った白黒PNG|13.5MB|
+|掲載中の白黒WebP・品質90|5.0MB|
+|16階調に減らしたPNG・比較用|4.6MB|
+
+白黒PNGは元画像より63.2％削減できますが、掲載中のWebPより大きくなります。16階調PNGはさらに軽くなるものの、階調が減るため掲載用には採用していません。サイトでは元の解像度と階調の見え方を維持したWebPを使用します。画像ごとの容量は `pages.json` を参照。
+
+元のPNG、階調を保った軽量PNG、PDF、設定、過去版はローカル制作プロジェクトで保管しています。
+
+## 更新・確認
+
+PythonとPillowを用意して実行します。
 
 ```sh
 python -m pip install Pillow
 python scripts/build_images.py /path/to/numbered-png
-```
-
-ローカルで確認する場合:
-
-```sh
+python scripts/build_site.py
+python scripts/check_site.py
 python -m http.server 8000
 ```
 
-`http://localhost:8000/` を開きます。GitHub Pagesは `main` ブランチのルートから公開します。更新をpushすると反映されます。
+`http://localhost:8000/` を開きます。画像は `pages.json` からHTMLに展開し、CSS・JavaScriptはそのまま配信する静的サイトです。GitHub Pagesは `main` ブランチのルートから公開します。
 
 ## 制作
 
-原案と人物設定をもとに、[MangaAgentsStudio-A](https://github.com/potechitakusan/MangaAgentsStudio-A) の制作手順を参考に制作。作画と指定箇所の画像修正には内蔵imagegenを使用しています。
+原案と人物設定をもとに、[MangaAgentsStudio-A](https://github.com/potechitakusan/MangaAgentsStudio-A) の制作手順を参考に制作。作画と指定箇所の画像修正には内蔵imagegenを使用しています。UI参照: [lockcole6/taikutsu-no-odds](https://github.com/lockcole6/taikutsu-no-odds)。
