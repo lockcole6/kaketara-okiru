@@ -40,3 +40,6 @@ episode=f'''<!doctype html>
 folder=root/'episodes/01';folder.mkdir(parents=True,exist_ok=True)
 (folder/'index.html').write_text(episode,encoding='utf-8',newline='\n')
 print('目次・第1話の縦読みHTMLを生成しました（16ページ）')
+if (root/'episodes/02/pages.json').exists():
+    import runpy
+    runpy.run_path(str(root/'scripts/build_episode2.py'),run_name='__main__')

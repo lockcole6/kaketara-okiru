@@ -1,0 +1,175 @@
+{
+  "title": "賭けたら起きる。",
+  "episode": "第2話 眠らない男",
+  "encoding": {
+    "format": "WebP",
+    "grayscale": true,
+    "quality": 90,
+    "resized": false
+  },
+  "originalBytes": 48746388,
+  "totalBytes": 6768954,
+  "savedPercent": 86.1,
+  "pages": [
+    {
+      "page": 1,
+      "file": "images/episode-02/page-001.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 461198,
+      "originalBytes": 3307855,
+      "sha256": "b868c9558c9673711f47e03a886023e8f54b544f2e3cada70cb1ef04c2102673",
+      "meanAbsoluteLumaError": 1.43
+    },
+    {
+      "page": 2,
+      "file": "images/episode-02/page-002.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 414556,
+      "originalBytes": 2939663,
+      "sha256": "261b686292ce941a0b8f614b248e5683746e6207a55ab6f29e351e271d98a0ae",
+      "meanAbsoluteLumaError": 1.319
+    },
+    {
+      "page": 3,
+      "file": "images/episode-02/page-003.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 496546,
+      "originalBytes": 3317944,
+      "sha256": "5f4b33577176946e8d7739cc4af94b1bca8c9f7651933be382179032acf474e3",
+      "meanAbsoluteLumaError": 1.363
+    },
+    {
+      "page": 4,
+      "file": "images/episode-02/page-004.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 457476,
+      "originalBytes": 3119163,
+      "sha256": "15b9f323251085319f97ee37a44db2bf7afa7bebc8501ef6e5b528e7e9ccbd4b",
+      "meanAbsoluteLumaError": 1.321
+    },
+    {
+      "page": 5,
+      "file": "images/episode-02/page-005.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 331620,
+      "originalBytes": 2685519,
+      "sha256": "9bfab8c23ad21eed75a43f0b417a5d3f955ffaea112a3c26066d2329cd0e7996",
+      "meanAbsoluteLumaError": 1.249
+    },
+    {
+      "page": 6,
+      "file": "images/episode-02/page-006.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 431938,
+      "originalBytes": 3127948,
+      "sha256": "43bd8c4a9e9f0d0c116d9f1e56ccda7c4d08af0156b3f8b46770899aedc82310",
+      "meanAbsoluteLumaError": 1.348
+    },
+    {
+      "page": 7,
+      "file": "images/episode-02/page-007.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 359708,
+      "originalBytes": 2757728,
+      "sha256": "eb840520bda5a853090788b949fc324bacf6bf46c4038b6c90dc38ad27612315",
+      "meanAbsoluteLumaError": 1.274
+    },
+    {
+      "page": 8,
+      "file": "images/episode-02/page-008.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 440738,
+      "originalBytes": 3201539,
+      "sha256": "c989bc9962de1f7a5ebb911fcd3c8ac89b0a0aae98dab6a7d69fca6d5ee7ec49",
+      "meanAbsoluteLumaError": 1.35
+    },
+    {
+      "page": 9,
+      "file": "images/episode-02/page-009.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 422070,
+      "originalBytes": 3073720,
+      "sha256": "376beeeff7f9c6681b7ccdba7d10ac60236f081f88316307b6efc7d5d9a8ded0",
+      "meanAbsoluteLumaError": 1.369
+    },
+    {
+      "page": 10,
+      "file": "images/episode-02/page-010.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 446404,
+      "originalBytes": 3144820,
+      "sha256": "4dead20f537113d9eb18ee4012a2d14e8dc213239b95b6e8955a97f1aad799b4",
+      "meanAbsoluteLumaError": 1.399
+    },
+    {
+      "page": 11,
+      "file": "images/episode-02/page-011.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 447966,
+      "originalBytes": 3189619,
+      "sha256": "8dbe04e141036703f9bdb7cab19abae91700dd2a5bbf54ab3f859d3f05a69a49",
+      "meanAbsoluteLumaError": 1.336
+    },
+    {
+      "page": 12,
+      "file": "images/episode-02/page-012.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 426822,
+      "originalBytes": 3059676,
+      "sha256": "b0991c7e3b37a521fca2382dbf8541fe9b12bd420002672d80efaa31a58be895",
+      "meanAbsoluteLumaError": 1.333
+    },
+    {
+      "page": 13,
+      "file": "images/episode-02/page-013.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 384030,
+      "originalBytes": 2785517,
+      "sha256": "ff95f61c8003b50846072ded882d30bb2a04814282b8dbc3700020d6816b563e",
+      "meanAbsoluteLumaError": 1.268
+    },
+    {
+      "page": 14,
+      "file": "images/episode-02/page-014.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 433128,
+      "originalBytes": 3087747,
+      "sha256": "20d5e0f9df5b8d8820f58073b53344c24fe277ba218cb7476ce55a9d40ea5890",
+      "meanAbsoluteLumaError": 1.308
+    },
+    {
+      "page": 15,
+      "file": "images/episode-02/page-015.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 425658,
+      "originalBytes": 3080592,
+      "sha256": "2796606ffb510713a1b47a1092f4d452aa245235fa5bb8320cc2c9469a7f2fe1",
+      "meanAbsoluteLumaError": 1.361
+    },
+    {
+      "page": 16,
+      "file": "images/episode-02/page-016.webp",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 389096,
+      "originalBytes": 2867338,
+      "sha256": "3000f17092d34b7d4a1d962a075be69b5d16e3887892834eadc46c0a41b104eb",
+      "meanAbsoluteLumaError": 1.316
+    }
+  ]
+}

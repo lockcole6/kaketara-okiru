@@ -1,8 +1,8 @@
 # 賭けたら起きる。
 
-第1話「退屈な男」全16ページの漫画閲覧サイト。
+第1話「退屈な男」と第2話「眠らない男」、全2話・32ページの漫画閲覧サイト。
 
-**[目次](https://lockcole6.github.io/kaketara-okiru/)** · **[第1話を読む](https://lockcole6.github.io/kaketara-okiru/episodes/01/)**
+**[目次](https://lockcole6.github.io/kaketara-okiru/)** · **[第1話を読む](https://lockcole6.github.io/kaketara-okiru/episodes/01/)** · **[第2話を読む](https://lockcole6.github.io/kaketara-okiru/episodes/02/)**
 
 ## UI
 
@@ -29,6 +29,8 @@
 
 元のPNG、階調を保った軽量PNG、PDF、設定、過去版はローカル制作プロジェクトで保管しています。
 
+第2話は全16ページ・1024×1536px。元PNGの48,746,388バイトから、同じ白黒WebP・品質90で6,768,954バイトへ86.1％削減しました。1ページ331,620〜496,546バイト。解像度は変更せず、元PNGは保管しています。WebPは非可逆圧縮です。詳細は `episodes/02/pages.json`。第1話の画像は変更していません。
+
 ## 更新・確認
 
 PythonとPillowを用意して実行します。
@@ -36,6 +38,7 @@ PythonとPillowを用意して実行します。
 ```sh
 python -m pip install Pillow
 python scripts/build_images.py /path/to/numbered-png
+python scripts/build_images.py /path/to/episode-02/png --episode 2
 python scripts/build_site.py
 python scripts/check_site.py
 python -m http.server 8000
